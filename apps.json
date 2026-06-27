@@ -506,5 +506,28 @@
       }
     ],
     "setup": []
+  },
+  {
+    "name": "Proxygate",
+    "description": "Curated marketplace of real-world data APIs for AI agents. Browse listings and call any endpoint per request from one prepaid USDC balance on Solana, with seller keys injected server-side and a signed receipt per call.",
+    "icon": {
+      "type": "url",
+      "url": {
+        "light": "https://raw.githubusercontent.com/proxygate-official/mcp/main/logo.png",
+        "dark": "https://raw.githubusercontent.com/proxygate-official/mcp/main/logo.png"
+      }
+    },
+    "category": "Utilities",
+    "price": "Free",
+    "developer": "Proxygate",
+    "sourceUrl": "https://github.com/proxygate-official/mcp",
+    "config": {
+      "mcpKey": "proxygate",
+      "runtime": "npx",
+      "args": [
+        "mcp-remote",
+        "https://gateway.proxygate.ai/mcp"
+      ]
+    }
   }
 ]
